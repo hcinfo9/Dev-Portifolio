@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>Meu Portifolio - Henrique Donato</title>
+</head>
+
+<body>
+
+    <!--Header Menu Navegação-->
+    <header>
+        <a class="header-title" href="/">
+            <h1>HC InfoTech</h1>
+        </a>
+
+        <nav class="menu-navbar">
+            <button class="button-menu"></button>
+
+            <ul>
+                <li><a href="#person">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--fim-->
+
+    <main>
+        <!-- Seção Pessoal-->
+        <section id="person">
+            <div class="content-person">
+                <div class="person-name">
+                    <h1>Olá,<span></span></h1>
+                    <h1>Meu nome é<span></span></h1>
+                    <h1>Henrique Donato<span></span></h1>
+                </div>
+
+                <div class="stack-content">
+                    <p>Hard Skills:</p>
+                    <div class="stacks">
+                        <ul>
+                            <li>
+                                <div data="HTML">
+                                    <img src="./assets/html.svg" alt="html-icon">
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data="CSS">
+                                    <img src="./assets/css.svg" alt="css-icon">
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data="JS">
+                                    <img src="./assets/js.svg" alt="js.svg">
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data="REACT">
+                                    <img src="./assets/react.svg" alt="react.svg">
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data="NODE">
+                                    <img src="./assets/node.svg" alt="node.svg">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-image">
+                <div class="wrapper-profile-photo">
+                    <img class="profile-photo" src="./assets/minhaImagem.png" alt="minhaImagem.png">
+                </div>
+
+                <div class="links">
+                    <a href="https://github.com/hcinfo9" target="_blank"><img src="./assets/logo-github.svg"
+                            alt="github.svg"></a>
+                    <a href="https://www.instagram.com/donato4383/" target="_blank"><img src="./assets/logo-insta.svg"
+                            alt="logo-insta.svg"></a>
+                    <a href="https://www.linkedin.com/in/henrique-donato-dev" target="_blank"><img
+                            src="./assets/logo-linkedin.svg" alt="logo-linkedin.svg"></a>
+                </div>
+            </div>
+        </section>
+        <!--Fim-->
+
+        <!-- Secão Sobre-->
+        <section id="about">
+            <div class="background-about">
+                <div class="img-wrapper">
+                    <img src="./assets/img.2.jpg" alt="image2">
+                </div>
+            </div>
+
+            <div class="background-stack">
+                <div class="section-subtitle">
+                    <h2>
+                        <p>💻</p>
+                        <p><span>Desenvolvedor</span>Front End</p>
+                    </h2>
+                </div>
+                <h3>
+                    Sou um Desenvolvedor Front End com experiências em
+                    <p>HTML, CSS, JavaScript, ReactJS e NodeJS</p>
+                </h3>
+
+                <h4>
+                    Meu nome é Henrique Donato, tenho 23 anos. Sou formado em Ciência da Computação pela UNIP, Tenho em
+                    média 5 anos de experiência atuando em TI - também atuo como Freelancer. Atualmente estou aberto
+                    para oportunidades como Desenvolvedor de Software FrontEnd Junior.
+                </h4>
+
+                <h4>Abaixo está o meu <span>currículo</span> para download.</h4>
+
+                <div class="button-cta">
+                    <a class="button-link" href="./public/document/Henrique Donato Candido.pdf" download="CV-Henrique-Donato" aria-label="Baixar curriculo" class="button-curriculo">Currículo</a>
+                </div>
+            </div>
+        </section>
+        <!--Fim-->
+
+        <!--Seção Projetos-->
+        <section id="projects">
+            <div class="projects-title">
+                <h2>PROJETOS 🧩</h2>
+            </div>
+
+            <div class="projects-container">
+                <div class="swiper mySwiper">
+                    <!--container-card-->
+
+                    <div class="swiper-wrapper">
+                        <!--content-project-->
+                        <div class="swiper-slide card-project">
+                            <div class="image-project">
+                                <a href="/"><img src="./assets/transferir.png" alt="conversor.jpg"></a>
+                            </div>
+
+                            <span>
+                                Conversor de Moedas
+                            </span>
+
+                            <p>Esse Projeto, Simula um conversor de Moedas, realizando a conversão com base na cotação atual das moedas listadas.</p>
+
+                            <div class="project-cta">
+                                <a href="https://github.com/hcinfo9/Projeto-Coin-Conversion">Código
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://hcinfo9.github.io/Projeto-Coin-Conversion/">Site
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-project">
+                            <div class="image-project">
+                                <a href="/"><img src="./assets//runder-stempel-trainer-personal-logo-design-bodybuilder-personal-muskeln-aufbauen-400-225978648.jpg" alt="conversor.jpg"></a>
+
+                            </div>
+
+                            <span>
+                                Personal-Bot
+                            </span>
+                            <p>Esse Projeto, Simula um ChatBot que com base nas suas escolhas ele cria uma rotina de treino e dieta semanal com base nas suas necessidades.</p>
+
+                            <div class="project-cta">
+                                <a href="https://github.com/hcinfo9/Personal-Bot">Código
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://github.com/hcinfo9/Personal-Bot">Site
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-project">
+                            <div class="image-project">
+                                <a href="/"><img src="./assets//pngtree-purple-abstract-background-with-calculator-icon-and-space-for-advertising-photo-image_26475646.jpg" alt="conversor.jpg"></a>
+                            </div>
+
+                            <span>
+                                Dev Calculadora
+                            </span>
+                            <p>Esse Projeto, Simula uma Calculadora que realiza operações basicas no seu dia a dia</p>
+
+                            <div class="project-cta">
+                                <a href="https://github.com/hcinfo9/Dev-Calculadora">Código
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://hcinfo9.github.io/Dev-Calculadora/">Site
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-project">
+                            <div class="image-project">
+                                <a href="/"><img src="./assets/images.jpg" alt="conversor.jpg"></a>
+                            </div>
+
+                            <span>
+                                Dev Cronometro
+                            </span>
+                            <p>Esse Projeto, Simula um Cronometro que serve como Timer que pode ser utilizado para medir o tempo gasto em diferentes tarefas, e possui a função de Relogio em tempo real.</p>
+
+                            <div class="project-cta">
+                                <a href="https://github.com/hcinfo9/Cronometro-Dev">Código
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://hcinfo9.github.io/Cronometro-Dev/">Site
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-project">
+                            <div class="image-project">
+                                <a href="/"><img src="./assets/unnamed.png" alt="conversor.jpg"></a>
+                            </div>
+
+                            <span>
+                                Dev Jokenpo
+                            </span>
+                            <p>Esse Projeto, Simula um Mini-Game focado no Jokenpo, o mesmo busca reviver a experiencia da brincadeira./p>
+
+                            <div class="project-cta">
+                                <a href="https://github.com/hcinfo9/Desafio-Jokenpo">Código
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://hcinfo9.github.io/Desafio-Jokenpo/">Site
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--fim-->
+
+        <section id="contact">
+            <div class="contact-icon">
+                <h2>Contato📞</h2>
+            </div>
+
+            <div class="content-icons-wrapper">
+                <div class="contact-content">
+                    <div class="contact-icon-content">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <div class="contact-info">
+                            <span>Localização</span>
+                            <p>São Paulo, Brasil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-icons-wrapper">
+                <div class="contact-content">
+                    <div class="contact-icon-content">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="contact-info">
+                            <span>E-mail</span>
+                            <a href="mailto:henrriquedonato9438@gmail.com">henrriquedonato9438@gmail.com</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <section class="container-footer">
+                <h2>Desenvolvido por</h2>
+
+                <h3>Henrique Donato &copy; 2024</h3>
+            </section>
+
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+
+
+</html>
