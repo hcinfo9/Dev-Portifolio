@@ -4,7 +4,7 @@ let links = document.querySelectorAll('.menu-navbar ul li a')
 
 
 let swiper = createSwiper(".mySwiper", ".swiper-pagination", ".swiper-button-next", ".swiper-button-prev");
-let header = document.querySelector('header');
+let header = document.querySelector('#header');
 
 function createSwiper(container, pagination, nextButton, prevButton) {
   return new Swiper(container, {
